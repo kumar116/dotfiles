@@ -14,12 +14,12 @@ unset GIT_PS1_SHOWUNTRACKEDFILES
 unset GIT_PS1_SHOWUPSTREAM
 unset GIT_PS1_SHOWDIRTYSTATE
 
-if [ -f ~/bin/.git/git-completion.bash ]; then
-    source ~/bin/.git/git-completion.bash
+if [ -f ~/bin/gitfiles/git-completion.bash ]; then
+    source ~/bin/gitfiles/git-completion.bash
 fi
 
-if [ -f ~/bin/.git/git-prompt.sh ]; then
-    source ~/bin/.git/git-prompt.sh
+if [ -f ~/bin/gitfiles/git-prompt.sh ]; then
+    source ~/bin/gitfiles/git-prompt.sh
 fi
 
 RESET="\[\033[0m\]"
