@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /home/skumar/tmp && rm -rf ..?* .[!.]* *
+cd /home/skumar/trash && rm -rf ..?* .[!.]* *
+
+cd ~
+du -sh
+
